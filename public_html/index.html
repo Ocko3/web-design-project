@@ -1,39 +1,176 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Úvodní stránka</title>
-    <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Music band</title>
+    <link rel="icon" type="icon/png" href="../images/diamond.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
+</head>
 
-<header>
-  <h1>Welcome to our Web design project</h1>
-</header>
+<body>
+    <header>       
+        <nav>
+            <a href="index.html" id="active">Home</a>
+            <a href="index.html">Music</a>
+            <a href="index.html">Bio</a>
+            <a href="index.html">Shows</a>
+            <a href="index.html">News</a>
+        </nav>         
 
-<nav>
-  <ul class="menu">
-    <li><a href="#" class="active"><span>Home</span></a></li>
-    <li><a href="#"><span>Services</span></a></li>
-    <li><a href="#"><span>About</span></a></li>
-    <li><a href="#"><span>Contact</span></a></li>
-  </ul>
-</nav>
-
-<section>
-  <p>We will make something <strong>amazing</strong> with this web!</p>
-</section>
-
-<section>
-  <p> <a href="info.html">Here</a> is some info about this project </p>
-</section>
-
-<footer>
-  Copyright &copy; 2017
-</footer>
-
-
-
-  </body>
+        <div id="button_container">
+            <button id="button_contact" aria-label="dropdown_menu_button">           
+            </button>
+            <div id="dropdown_content">
+                <a href="index.html">Home</a>
+                <a href="index.html">Bio</a>
+                <a href="index.html">Music</a>
+                <a href="index.html">Shows</a>
+                <a href="index.html">News</a>
+            </div>
+        </div>
+    </header>
+    
+    <div id="wrapper">
+        <div id="inner_wrapper">
+            <div id="hero">
+                <div id="title">
+                    <h1>Trivium</h1>
+                    <p>Music band</p>
+                </div>  
+            </div>
+            
+            <div id="section_wrapper">
+                <section class="long">
+                    <h2>About the band</h2>
+                    <h3>Learn more about Trivium</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae venenatis tortor. Mauris orci magna, blandit et massa non, lobortis suscipit orci. Nulla dignissim, ex ac venenatis rhoncus, quam nunc suscipit ipsum, ac tincidunt lacus tellus porta eros. Pellentesque sed purus sed nulla blandit rutrum. Sed sit amet dignissim tellus. 
+                    </p>
+                    <a class="button_link" href="">Learn more ></a>
+                </section>
+            
+                <section class="long">            
+                    <div class="album_info">
+                        <h2>Music Album</h2>
+                        <h3>Trivium</h3>
+                        <hr>
+                        <p>2017</p>
+                        <h3>$9.99</h3>  
+                    </div>
+                    <div class="album_cover">
+                        <img src="../images/album.jpg" alt="Album cover">
+                    </div>
+                    <div>
+                        <audio controls>
+                            <source src="song.ogg" type="audio/ogg">
+                            <source src="song.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <a class="button_link" href="">More music ></a>
+                </section>
+            </div>    
+                
+            <section class="horiz">
+                <h2>Shows</h2>
+                <h3>Upcoming shows</h3>
+                <hr>
+                <div class="concert">
+                    <div class="concert_date">
+                        <p class="date">25</p>
+                        <p class="month">Nov</p>
+                    </div>
+                    <div class="concert_description">
+                        <p>Rock Festival</p>
+                        <p>Lucerna Music Bar</p>
+                        <p>Prague</p>
+                    </div>                   
+                </div>
+                <div class="concert">
+                    <div class="concert_date">
+                        <p class="date">25</p>
+                        <p class="month">Nov</p>
+                    </div>
+                    <div class="concert_description">
+                        <p>Rock Festival</p>
+                        <p>Lucerna Music Bar</p>
+                        <p>Prague</p>
+                    </div>                   
+                </div>
+                <div class="concert">
+                    <div class="concert_date">
+                        <p class="date">25</p>
+                        <p class="month">Nov</p>
+                    </div>
+                    <div class="concert_description">
+                        <p>Rock Festival</p>
+                        <p>Lucerna Music Bar</p>
+                        <p>Prague</p>
+                    </div>                   
+                </div>
+                <div class="concert">
+                    <div class="concert_date">
+                        <p class="date">25</p>
+                        <p class="month">Nov</p>
+                    </div>
+                    <div class="concert_description">
+                        <p>Rock Festival</p>
+                        <p>Lucerna Music Bar</p>
+                        <p>Prague</p>
+                    </div>                   
+                </div>
+                <div class="concert">
+                    <div class="concert_date">
+                        <p class="date">25</p>
+                        <p class="month">Nov</p>
+                    </div>
+                    <div class="concert_description">
+                        <p>Rock Festival</p>
+                        <p>Lucerna Music Bar</p>
+                        <p>Prague</p>
+                    </div>                   
+                </div>
+                <a class="button_link" href="">More shows ></a>
+            </section>
+            
+            <section class="half">
+                <h2>Latest news</h2>
+                <h3>Learn more about Trivium</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae venenatis tortor. Mauris orci magna, blandit et massa non, lobortis suscipit orci. Nulla dignissim, ex ac venenatis rhoncus, quam nunc suscipit ipsum, ac tincidunt lacus tellus porta eros. Pellentesque sed purus sed nulla blandit rutrum. Sed sit amet dignissim tellus. 
+                </p>
+                <a class="button_link" href="">Read the story ></a>
+            </section>
+            
+            <section class="half">
+                <h2>Latest news</h2>
+                <h3>Learn more about Trivium</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae venenatis tortor. Mauris orci magna, blandit et massa non, lobortis suscipit orci. Nulla dignissim, ex ac venenatis rhoncus, quam nunc suscipit ipsum, ac tincidunt lacus tellus porta eros. Pellentesque sed purus sed nulla blandit rutrum. Sed sit amet dignissim tellus. 
+                </p>
+                <a class="button_link" href="">Read the story  ></a>
+            </section>     
+            
+            <section class="whole">
+                <h3>Subscribe for updates on Trivium</h3>
+                <input type="email" name="email" aria-label="email_input" maxlength="100" placeholder="Enter your email:">
+                <a class="button_link" href="">Subscribe now  ></a>
+            </section> 
+            
+            <footer>
+                <div>
+                    <a href="info.html">Zadání projektu</a>
+                    <a href="index.html">Prohlášení o přístupnosti</a>
+                </div>
+                <div>
+                    <p>Studentský projekt</p>
+                    <p>Vytvořily Olga Cinklová a Meri Sanagyan</p>
+                </div>        
+            </footer>
+        </div>   
+    </div>
+    
+</body>
 </html>
