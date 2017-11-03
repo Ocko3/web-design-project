@@ -106,7 +106,7 @@ a:active, #active {color: #A3956D;}
 #inner_wrapper{
     width: 985px;
     margin: auto;
-    height: 1415px;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -146,6 +146,7 @@ section {
 
 .half {
     width: 402.5px;
+    height: 335px;
 }
 
 .long {
@@ -160,6 +161,10 @@ section {
 .album_info, .album_cover {
     display: inline-block;
     float: left;
+}
+.album_cover{
+    height: 141px;
+    width: 141px;
 }
 
 .album_info p {
@@ -183,6 +188,7 @@ audio:last-of-type {
 
 .horiz {
     width: 216.25px;
+    height: 543px;
 }
 
 #section_wrapper {
@@ -223,11 +229,17 @@ section p {
     transition-property: color, background-color;
     transition-duration: .3s;
     transition-timing-function: linear;
+    font-size: 15px;
 }
 
 .button_link:hover{
     background-color: #A3956D ;
     color: white;
+}
+
+.fa{
+   padding-left: 10px;
+    font-size: 20px;
 }
 
 /*SHOWS SECTION*/
