@@ -1,32 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zadání</title>
-    <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
-<h1>Zadání projektu</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Music band</title>
+    <link rel="icon" type="icon/png" href="../images/diamond.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-<ul>
-    <li>Webová prezentace je tvořena dokumenty ve validním kódu HTML5 dle validátoru W3C (<a href="http://validator.w3.org">http://validator.w3.org</a>)</li>
-    <li>Celá webová prezentace je formátována kaskádovými styly (CSS) z jednoho externího stylopisu.</li>
-    <li>Celá webová prezentace je přístupná zrakové handicapovaným uživatelům podle jedné z následujících metodiky:
-        <ul>
-            <li>WCAG 2.0 – minimálně level A</li>
-            <li>Blind Friendly Web 2.3 – minimálně pravidla s nejvyšší prioritou</li>
-            <li>Pravidla přístupnosti Ministerstva vnitra ČR – vyhláška č. 64/2008 Sb. – minimálně povinná pravidla. </li>
-            <li>Na jedné webové stránce je dostupné prohlášení o přístupnosti.</li>
-        </ul>
-        </li>
-    <li>Na úvodní stránce je uvedeno viditelné upozornění, že se jedná o studentský projekt.</li>
-    <li>Všechny soubory jsou pojmenovány malými písmeny, bez diakritiky a bez mezer a jsou umístěny ve složce <strong>public_html</strong>.
-        Výchozí (úvodní) soubor se jmenuje <em>index.html</em>.</li>
-    <li>Obrázky použité ve WWW prezentaci nejsou „deformovány“ atributy <em>width</em> a <em>height</em>.
-        Obrázky, které mají dekorativní funkci, jsou vloženy prostřednictvím CSS.</li>
-</ul>
+<body> 
+    <header>       
+        <nav>
+            <a href="index.html" id="active">Home</a>
+            <a href="index.html">Music</a>
+            <a href="index.html">Bio</a>
+            <a href="index.html">Shows</a>
+            <a href="index.html">News</a>
+        </nav>         
 
-<a href='index.html' class='button'>Back</a>
+        <div id="button_container">
+            <button id="button_contact" aria-label="dropdown_menu_button">           
+            </button>
+            <div id="dropdown_content">
+                <a href="index.html">Home</a>
+                <a href="index.html">Bio</a>
+                <a href="index.html">Music</a>
+                <a href="index.html">Shows</a>
+                <a href="index.html">News</a>
+            </div>
+        </div>
+    </header>
+    
+     <div id="wrapper">
+        <div id="inner_wrapper">
+            <div id="hero">
+                <div id="title">
+                    <h1>Trivium</h1>
+                    <p>Music band</p>
+                </div>  
+            </div>
+            
+            <section class="whole">
+                <h2>Zadání projektu</h2>
+                <hr>
+                <p>
+                    Vytvoření WWW prezentace (web site – min. 5 vzájemně provázaných WWW stránek) na zvolené téma a nahrání prezentace na server KITLAB v řádném
+                    termínu.
+                </p>
+                <ul>
+                    <li>Webová prezentace je tvořena dokumenty ve validním kódu HTML5 dle validátoru W3C (<a href="http://validator.w3.org">http://validator.w3.org</a>)</li>
+                    <li>Celá webová prezentace je formátována kaskádovými styly (CSS) z jednoho externího stylopisu.</li>
+                    <li>Celá webová prezentace je přístupná zrakové handicapovaným uživatelům podle jedné z následujících metodiky:
+                        <ul>
+                            <li>WCAG 2.0 – minimálně level A</li>
+                            <li>Blind Friendly Web 2.3 – minimálně pravidla s nejvyšší prioritou</li>
+                            <li>Pravidla přístupnosti Ministerstva vnitra ČR – vyhláška č. 64/2008 Sb. – minimálně povinná pravidla. </li>
+                            <li>Na jedné webové stránce je dostupné prohlášení o přístupnosti.</li>
+                        </ul>
+                        </li>
+                    <li>Na úvodní stránce je uvedeno viditelné upozornění, že se jedná o studentský projekt.</li>
+                    <li>Všechny soubory jsou pojmenovány malými písmeny, bez diakritiky a bez mezer a jsou umístěny ve složce <strong>public_html</strong>.
+                        Výchozí (úvodní) soubor se jmenuje <em>index.html</em>.</li>
+                    <li>Obrázky použité ve WWW prezentaci nejsou „deformovány“ atributy <em>width</em> a <em>height</em>.
+                        Obrázky, které mají dekorativní funkci, jsou vloženy prostřednictvím CSS.</li>
+                </ul>
+                <a href="index.html">
+                    <button class="button_link" >Back <i class="fa fa-angle-right"></i></button>
+                </a>
+            </section>
+            
+            <footer>
+                <div>
+                    <a href="info.html">Zadání projektu</a>
+                    <a href="index.html">Prohlášení o přístupnosti</a>
+                </div>
+                <div>
+                    <p>Studentský projekt</p>
+                    <p>Vytvořily Olga Cinklová a Meri Sanagyan</p>
+                </div>        
+            </footer>
+        </div>   
+    </div>
 </body>
 </html>

@@ -234,11 +234,12 @@ section p {
 .button_link:hover{
     background-color: #A3956D ;
     color: white;
+    cursor: pointer;
 }
 
 .fa{
    padding-left: 10px;
-    font-size: 20px;
+   font-size: 20px;
 }
 
 /*SHOWS SECTION*/
@@ -288,6 +289,9 @@ section p {
 
 .whole {
     width: 895px;
+}
+
+.centered {
     text-align: center;
 }
 
@@ -334,6 +338,24 @@ footer div:last-of-type {
     text-align: right;
 }
 
+/*INFO PAGE STYLING*/ 
+
+ul {
+    list-style: disc inside;
+    margin: 10px 0 10px 25px;
+}
+
+li {
+    line-height: 1.25;
+}
+
+ul ul {
+    list-style: circle inside;
+}
+
+p+ul>li:last-of-type {
+    margin-bottom: 25px;
+}
 
 /*MEDIA QUERIES*/
 
@@ -388,7 +410,7 @@ footer div:last-of-type {
         width: 100%;
     }
     
-    .whole {
+    .centered {
         text-align: left;
     }
     
@@ -407,6 +429,10 @@ footer div:last-of-type {
     
     footer div:last-of-type {
         text-align: left;
+    }
+    
+    p+ul {
+        margin-left: 0px;
     }
     
     /*DROPDOWN MENU*/
