@@ -353,7 +353,7 @@ ul ul {
     list-style: circle inside;
 }
 
-p+ul>li:last-of-type {
+p+ul>li:last-of-type, hr+ul>li:last-of-type {
     margin-bottom: 25px;
 }
 
@@ -431,7 +431,7 @@ p+ul>li:last-of-type {
         text-align: left;
     }
     
-    p+ul {
+    p+ul,hr+ul {
         margin-left: 0px;
     }
     
