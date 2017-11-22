@@ -172,14 +172,18 @@ section {
 }
 
 .album_info {
-    width: 430px;
+    width: inherit;
     margin-right: 30px;
 }
 
 audio {
     width: 430px;
     height:32px;
-    margin-bottom: 10px;
+    margin:10px;
+}
+
+.audio,a.audio_button {
+    margin:10px;
 }
 
 audio:last-of-type {
@@ -512,3 +516,4 @@ p+ul>li:last-of-type, hr+ul>li:last-of-type {
     }
 }
 
+/* PLAYLIST - Music page*/
