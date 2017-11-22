@@ -11,35 +11,14 @@
 </head>
 
 <body> 
-    <header>       
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html">Music</a>
-            <a href="index.html">Bio</a>
-            <a href="index.html">Shows</a>
-            <a href="index.html">News</a>
-        </nav>         
-
-        <div id="button_container">
-            <button id="button_contact" aria-label="dropdown_menu_button">           
-            </button>
-            <div id="dropdown_content">
-                <a href="index.html">Home</a>
-                <a href="index.html">Bio</a>
-                <a href="index.html">Music</a>
-                <a href="index.html">Shows</a>
-                <a href="index.html">News</a>
-            </div>
-        </div>
+    <header>
+        <script src="parts/loadMenu.js"></script>
     </header>
     
      <div id="wrapper">
         <div id="inner_wrapper">
             <div id="hero">
-                <div id="title">
-                    <h1>Trivium</h1>
-                    <p>Music band</p>
-                </div>  
+                <script src="parts/loadMainPic.js"></script>
             </div>
             
             <section class="whole">
@@ -49,7 +28,7 @@
                     Prohlašujeme, že tento web je přístupný zrakově handicapovaným uživatelům podle metodiky WCAG 2.0 level A.
                 </p>
                 <a href="index.html">
-                    <button class="button_link" >Zpět <i class="fa fa-angle-right"></i></button>
+                    <button class="button_link" ><i class="fa fa-angle-left"></i> Zpět</button>
                 </a>
             </section>
             
@@ -60,19 +39,12 @@
                     <li>Fotografie použitá na pozadí webových stránek je převzatá z portálu <a href=https://stocksnap.io/photo/F66MXRQS1K>stocksnap.io</a>, kde byla zveřejněná podle licenci Creative Commons – CC0.</li>
                 </ul>
                 <a href="index.html">
-                    <button class="button_link" >Zpět <i class="fa fa-angle-right"></i></button>
+                    <button class="button_link" ><i class="fa fa-angle-left"></i> Zpět</button>
                 </a>
             </section>
-            
+
             <footer>
-                <div>
-                    <a href="info.html">Zadání projektu</a>
-                    <a href="prohlaseni.html">Prohlášení o přístupnosti</a>
-                </div>
-                <div>
-                    <p>Studentský projekt</p>
-                    <p>Vytvořily Olga Cinklová a Meri Sanagyan</p>
-                </div>        
+                <script src="parts/loadFooter.js"></script>
             </footer>
         </div>   
     </div>
