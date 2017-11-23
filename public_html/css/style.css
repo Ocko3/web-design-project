@@ -67,12 +67,25 @@ header {
     position: fixed;
     background-color: black;
     line-height: 60px;
-    vertical-align: middle;
+
+}
+
+nav ul li{
+    list-style:none;
+    text-align: center;
+    display: inline-flex;
+    padding-right:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    padding:4px 5px;
 }
 
 nav{
     width: 100%;
     text-align: center;
+    vertical-align: middle;
 }
 
 nav a{
@@ -83,7 +96,11 @@ nav a{
 
 a:link, a:visited { color: white;}
 a:hover {color: #CFC0B0;}
-a:active, #active {color: #A3956D;}
+a:active, .active {color: #A3956D;}
+
+a.active{
+    color: #A3956D;
+}
 
 #button_container{
     display: inline-block;
@@ -165,6 +182,7 @@ section {
 .album_cover{
     height: 141px;
     width: 141px;
+    padding-right: 10px;
 }
 
 .album_info p {
@@ -177,17 +195,15 @@ section {
 }
 
 audio {
-    width: 430px;
+    width: 410px;
     height:32px;
     margin:10px;
+    float: right;
 }
 
 .audio,a.audio_button {
     margin:10px;
-}
-
-audio:last-of-type {
-    margin-bottom: 25px;
+    float: right;
 }
 
 .horiz {
@@ -377,6 +393,21 @@ p+ul>li:last-of-type, hr+ul>li:last-of-type {
     margin-bottom: 25px;
 }
 
+img.photo{
+    width: 370px;
+    height: 350px;
+    margin: 15px;
+    border: 1px solid #A3956D;
+}
+
+.photo-left{
+    float: left;
+}
+
+.photo-right {
+    float: right;
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 1024px),
@@ -517,3 +548,11 @@ p+ul>li:last-of-type, hr+ul>li:last-of-type {
 }
 
 /* PLAYLIST - Music page*/
+.playlist-album-iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
