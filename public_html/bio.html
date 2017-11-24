@@ -18,14 +18,9 @@
 <body>
 <header>
     <script src="parts/loadMenu.js"></script>
-    <!--TODO opravit menu - active class, aby se oznacilo, ktera "zalozka" je aktivni-->
     <script>
-        $(function() {
-            $("ul li").on("click", function() {
-                $(this).siblings().removeClass('active');
-                $(this).addClass("active");
-            });
-        });
+        $('#home').removeClass('active');
+        $('#bio').addClass('active');
     </script>
 </header>
 
