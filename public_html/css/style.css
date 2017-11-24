@@ -266,6 +266,7 @@ hr {
 
 section p {
     margin-bottom: 25px;
+    text-align: left;
 }
 
 .long p, .half p, .whole p {
