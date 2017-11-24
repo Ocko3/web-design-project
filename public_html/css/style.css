@@ -239,6 +239,11 @@ audio.basic_audio{
     text-decoration: none;
 }
 
+iframe {
+    width:100%;
+    height: 450px;
+}
+
 .horiz {
     width: 216.25px;
     height: 565px;
