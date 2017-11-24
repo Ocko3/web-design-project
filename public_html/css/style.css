@@ -203,9 +203,15 @@ audio{
  width: 100%;
 }
 
-.audio,a.audio_button {
+.audio,.audio_button {
     margin:10px;
-    float: right;
+    float: inherit;
+}
+
+audio.basic_audio{
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .track-row audio{
@@ -235,7 +241,7 @@ audio{
 
 .horiz {
     width: 216.25px;
-    height: 530px;
+    height: 565px;
 }
 
 #section_wrapper {
@@ -293,6 +299,10 @@ section p {
     font-size: 20px;
 }
 
+.fa-envelope-o{
+    padding-left: 10px;
+}
+
 .fa-angle-left, .fa-envelope-o {
    padding-right: 10px;
 }
@@ -317,7 +327,7 @@ section p {
 }
 
 .concert {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     height: 60px;
 }
 
@@ -347,14 +357,15 @@ section p {
     height: 20px;
 }
 
-.concert_date, .concert_description {
+.concert_date{
     display: inline-block;
     float: left;
 }
 
 .concert_description {
-    margin: 0 0 0 15px;
     line-height: 20px;
+    float: inherit;
+    margin-left: 70px;
 }
 
 /*SUBSCRIBE SECTION*/

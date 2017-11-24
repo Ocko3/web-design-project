@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Trivium</title>
     <link rel="icon" type="icon/png" href="images/diamond.png"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -32,9 +32,7 @@
                     <p>
                         Trivium is an American heavy metal band from Orlando, Florida, formed in 1999. After getting signed to Roadrunner Records in 2004, the band has released eight studio albums and over twenty singles. Their latest album, The Sin and the Sentence, was released on October 20, 2017. The band has sold over one million albums worldwide.
                     </p>
-                    <a href="bio.html">
-                        <button class="button_link" >Learn more <i class="fa fa-angle-right"></i></button>
-                    </a>
+                    <button class="button_link" type="button" onclick="location.href='bio.html'">Learn more <i class="fa fa-angle-right"></i></button>
                 </section>
             
                 <section class="long">            
@@ -48,15 +46,13 @@
                         <div class="album_cover">
                             <img src="images/album2017.jpg" alt="The sin and the sentence" width="141" height="141">
                         </div>
-                        <h3 align="center">The Sin And The Sentence</h3>
-                        <audio controls style="width: 70%;margin-bottom: 10px;">
+                        <h3>The Sin And The Sentence</h3>
+                        <audio controls class="basic_audio">
                             <source src="songs/sin-and-the-sentence.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                         <br>
-                        <a class="audio_button" href="music.html">
-                            <button class="button_link" >More music <i class="fa fa-angle-right"></i></button>
-                        </a>
+                        <button class="button_link audio_button" type="button" onclick="location.href='music.html'">More music <i class="fa fa-angle-right"></i></button>
                     </div>
                 </section>
             </div>    
@@ -107,7 +103,7 @@
                         <p>Rock Festival</p>
                         <p>Lucerna Music Bar</p>
                         <p>Prague</p>
-                    </div>                   
+                    </div>
                 </div>
                 <div class="concert">
                     <div class="concert_date">
@@ -118,11 +114,9 @@
                         <p>Rock Festival</p>
                         <p>Lucerna Music Bar</p>
                         <p>Prague</p>
-                    </div>                   
+                    </div>
                 </div>
-                <a href="shows.html">
-                    <button class="button_link" >More shows <i class="fa fa-angle-right"></i></button>
-                </a>
+                <button class="button_link" type="button" onclick="location.href='shows.html'">More shows <i class="fa fa-angle-right"></i></button>
             </section>
             
             <section class="half">
@@ -131,28 +125,22 @@
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae venenatis tortor. Mauris orci magna, blandit et massa non, lobortis suscipit orci. Nulla dignissim, ex ac venenatis rhoncus, quam nunc suscipit ipsum, ac tincidunt lacus tellus porta eros. Pellentesque sed purus sed nulla blandit rutrum. Sed sit amet dignissim tellus. 
                 </p>
-                <a href="news.html">
-                    <button class="button_link" >Read the story <i class="fa fa-angle-right"></i></button>
-                </a>
+                <button class="button_link" type="button" onclick="location.href='news.html'">Read the story <i class="fa fa-angle-right"></i></button>
             </section>
             
             <section class="half">
                 <h2>Latest news</h2>
                 <h3>Read more about Trivium</h3>
                 <hr>
-                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus"
+                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi option."
                 </p>
-                <a href="news.html">
-                    <button class="button_link" >Read the story <i class="fa fa-angle-right"></i></button>
-                </a>
+                <button class="button_link" type="button" onclick="location.href='news.html'">Read the story <i class="fa fa-angle-right"></i></button>
             </section>
 
             <section class="whole centered">
                 <h3>Subscribe for updates on Trivium</h3>
                 <input type="email" name="email" aria-label="email_input" maxlength="100" placeholder="Enter your email:">
-                <a href="">
-                    <button class="button_link" >Subscribe now <i class="fa fa-envelope-o"></i></button>
-                </a>
+                <button class="button_link" type="button" onclick="location.href=''">Subscribe now <i class="fa fa-envelope-o"></i></button>
                 <div class="icons-social">
                     <a href="https://www.facebook.com/Trivium/"><span class="icon"><i class="fa fa-facebook-official"></i></span></a>
                     <a href="https://www.youtube.com/user/trivium"><span class="icon"><i class="fa fa-youtube-play"></i></span></a>
