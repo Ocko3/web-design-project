@@ -52,10 +52,8 @@ body {
     font-size: 12.0pt;
     color: white;
     width: 100%;
-    background-image: url('../images/concert.jpg');
+    background: url('../images/concert.jpg') no-repeat center center fixed;
     background-size: cover;                     
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 header {
