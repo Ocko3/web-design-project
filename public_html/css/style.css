@@ -481,7 +481,7 @@ img.photo{
 .italic {
     font-style: italic;
     font-size: 14px;
-    color: #A3956D;
+    color: #CFC0B0;
 }
 
 .inline {
@@ -495,11 +495,40 @@ img.photo{
 
 .article_cover {
     float: right;
-    margin: 0 0 25px 25px;
+    margin: 0 0 15px 15px;
     max-width: 350px;
     max-height: 300px;
     width: auto;
     height: auto;
+}
+
+/*CONCERTS PAGE STYLING*/ 
+
+.big {
+    font-size: 35px;
+    font-style: italic;
+    font-family: georgia;
+    margin-bottom: 10px;
+    color: #A3956D;
+}
+
+.bold+p {
+    margin-bottom: 10px;
+}
+
+.centered>.inline {
+    width: 50%;
+    height: 85px;
+    margin-top: 25px;
+}
+
+.centered>.inline:first-of-type, .centered>.inline:nth-of-type(2){
+    margin-top: 0px;
+}
+
+.inline>button {
+    float:right;
+    margin-top: 22.5px;
 }
 
 /*MEDIA QUERIES*/
