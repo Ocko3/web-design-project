@@ -462,8 +462,10 @@ img.photo{
 }
 
 /*NEWS PAGE STYLING*/ 
+
 .news {
     height: 500px;
+    margin-right: 0px;
 }
 
 .news>div {
@@ -489,7 +491,15 @@ img.photo{
 
 .news button {
     float:right;
-    margin: auto 0;
+}
+
+.article_cover {
+    float: right;
+    margin: 0 0 25px 25px;
+    max-width: 350px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 
 /*MEDIA QUERIES*/
@@ -570,6 +580,11 @@ img.photo{
     p+ul,hr+ul {
         margin-left: 0px;
     }
+    
+    .article_cover {
+       width: 100%;
+    }
+
     
     /*DROPDOWN MENU*/
     
