@@ -260,7 +260,7 @@ h2, h3 {
 
 h2 {
     font-size: 16pt;
-    font-family: 'Open Sans', sans serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {
@@ -500,7 +500,7 @@ p+ul>li:last-of-type, hr+ul>li:last-of-type {
 .big {
     font-size: 35px;
     font-style: italic;
-    font-family: georgia;
+    font-family: Georgia, serif;
     margin-bottom: 10px;
     color: #A3956D;
 }
