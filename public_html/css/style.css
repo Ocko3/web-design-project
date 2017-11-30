@@ -445,19 +445,14 @@ p+ul>li:last-of-type, hr+ul>li:last-of-type {
     margin-bottom: 25px;
 }
 
-img.photo{
-    width: 370px;
-    height: 350px;
-    margin: 15px;
-    border: 1px solid #A3956D;
-}
-
 .photo-left{
     float: left;
+    margin: 0 15px 15px 0;
 }
 
 .photo-right {
     float: right;
+    margin: 0 0 15px 15px;
 }
 
 /*NEWS PAGE STYLING*/ 
@@ -494,7 +489,7 @@ img.photo{
 
 .article_cover {
     float: right;
-    margin: 0 0 15px 15px;
+/*    margin: 0 0 15px 15px;*/
     max-width: 350px;
     max-height: 300px;
     width: auto;
@@ -617,6 +612,11 @@ img.photo{
     .big {
         font-size: 25px;
     }
+    
+    .photo-left, .photo-right{
+        margin: 0 0 15px;
+    }
+
     
     /*DROPDOWN MENU*/
     
